@@ -5429,7 +5429,7 @@ webpackJsonp([2],{
 	    { path: '', component: _1.ExampleComponent },
 	    { path: 'restricted', component: _1.RestrictedComponent, canActivate: [angular2_token_1.Angular2TokenService] }
 	];
-	exports.routes = router_1.RouterModule.forRoot(routerConfig, { useHash: true });
+	exports.routes = router_1.RouterModule.forRoot(routerConfig);
 	
 
 /***/ },
